@@ -8,5 +8,7 @@ def position_taken?(board, index)
   end
 end
 
+board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
+index = 0
 position_taken?(board, index)
